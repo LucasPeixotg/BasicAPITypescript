@@ -1,3 +1,19 @@
-.env
+# dependencies
 node_modules/
+
+# build output
+dist/
+
+# environment variables
+.env
+.env.*
+
+# database data
 pgdata/
+
+# logs
+npm-debug.log*
+*.log
+
+# macOS
+.DS_Store
